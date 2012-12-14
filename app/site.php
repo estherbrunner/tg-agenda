@@ -1,6 +1,6 @@
  <?php
-
-class EBSite {
+ // Test - Test
+ class EBSite {
 
   private static $users, $events, $organisations;
 
