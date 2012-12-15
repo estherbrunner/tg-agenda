@@ -1,0 +1,12 @@
+#header {
+  padding-left: 0;
+  width: 680px;
+}
+
+#left, #footer, #header .user, th.right, td.right, div.bar {
+  display: none;
+}
+
+#content {
+  margin-left: 0;
+}
