@@ -1,6 +1,8 @@
- <?php
- // Test - Test
- class EBSite {
+<?php
+/**
+ * Haupt-Klasse für site-weite Funktionen und Einstellungen
+ */
+class EBSite {
 
   private static $users, $events, $organisations;
 
