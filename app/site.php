@@ -165,7 +165,7 @@ abstract class EBFeed {
         if ($this->view instanceof self) return $this->view->title;
         return htmlspecialchars($this->title);
       case 'content': 
-        // if ($this->view instanceof self) return $this->view->$key;
+        //if ($this->view instanceof self) return $this->view->$key;
         return $this->$key;
       default:
         return '';

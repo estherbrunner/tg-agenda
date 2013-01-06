@@ -24,8 +24,6 @@ $orgs = EBSite::organisations();
     <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
     <link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
-    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <div id="header" role="banner">
