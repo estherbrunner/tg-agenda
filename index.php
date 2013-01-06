@@ -48,9 +48,6 @@ $orgs = EBSite::organisations();
       echo $page->footer;
       include EB_DATA.'footer.html';
       ?>
-      <a title="Clicky Web Analytics" href="http://getclicky.com/97677"><img alt="Clicky Web Analytics" src="http://static.getclicky.com/media/links/badge.gif" border="0" width="1" height="1" /></a>
-      <script src="http://static.getclicky.com/97677.js" type="text/javascript"></script>
-      <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/97677-db12.gif" /></p></noscript>
     </div>
   </body>
 </html>
