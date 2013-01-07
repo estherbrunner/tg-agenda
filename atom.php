@@ -25,13 +25,5 @@ $feed = new EBShowEventsFeed();
   <link href="http://www.tg-agenda.ch/v1.1/atom.php" rel="self" />
   <id>http://tg-agenda.ch/</id>
   <updated><?php echo date('c', filemtime(EB_DATA.EBEvents::FILE)); ?></updated>
-  
-  <?php 
-  $events = new EBEvents();
-  
-  var_dump($events);
-  ?>
-  
   <?php echo $feed->content; ?>
-
 </feed>

@@ -517,7 +517,6 @@ class EBShowEventsFeed extends EBFeed {
   public function view(){
     $start = time() - 24 * 60 * 60;
     $end   = $start + (365 * 24 * 60 * 60); // Standard: zeige nächste 365 Tage
-    echo 'Hello World';
     $this->eventlist($start, $end);
   }
   
@@ -542,7 +541,6 @@ class EBShowEventsFeed extends EBFeed {
   private function eventlist($start, $end){
     $events = array();
     $allevents = $this->events;
-    var_dump($allevents);
     foreach ($allevents as $event){
       if (($event->date < $start) || ($event->date > $end)) continue;
       $events[] = $event;
